@@ -8,9 +8,6 @@ import { ProductService } from '../product.service';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
-  id: number;
-  artistName: string;
-  albumName: string;
   products: Product[];
 
   constructor(private _productService: ProductService) { }
